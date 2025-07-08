@@ -24,6 +24,7 @@ body{
     font-size: 56px;
     text-shadow: 2px 2px 2px black;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .hero-content p{
@@ -44,8 +45,6 @@ body{
     list-style-type: none;
     color: white;
     border: 1px solid white;
-    
-
 }
 
 .hero nav li a{
@@ -62,4 +61,44 @@ body{
 .hero nav li a:hover{
     color: #fff;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 860px;
+}
+
+section{
+    padding-top:32px; ;
+}
+
+
+article{
+    background-color: white;
+    padding:16px;
+    margin-bottom:32px ;
+}
+
+article h2{
+    background-color: #dbdbdb;
+    color: rgb(0, 0, 0);
+    border-bottom: #ccc 2px solid;
+    padding: 3px 5px;
+    margin-top: 0;
+}
+
+article a{
+    background-color: #c7c7c7;
+    padding: 10px;
+    border-radius:5px ;
+    width:fit-content ;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 16px 0;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
 }
